@@ -3,11 +3,11 @@
 \begin{document}
 \section{L'homepage}
 	\begin{figure} [h]
-			\centering
-			\includegraphics[scale=0.3]{img/ScreenHomePage}
-			\caption{Homepage del sito}
-			\label{fig:AprireProgetto}
-		\end{figure}
+		\centering
+		\includegraphics[scale=0.3]{img/ScreenHomePage}
+		\caption{Homepage del sito}
+		\label{fig:AprireProgetto}
+	\end{figure}
 	\subsection{Le 6 w}
 		L'homepage di un sito web dovrebbe sempre rispondere alle 6 w giornalistiche, un po' riadattate al contesto del web.
 		\subsubsection{Where}
@@ -26,6 +26,41 @@
 		\subsubsection{What}
 			L'asse \textit{what} indica cosa il sito offre. Le offerte del sito web sono abbastanza evidenti: infatti subito si vedono le immagini relative alle notizie e recensioni principali. Scendendo nella pagina poi si possono vedere altre notizie e recensioni. Inoltre l'identificazione di tale asse è semplificata dal menù.
 		\subsubsection{When}
-			L'asse \textit{when} indica le novità temporali relative al sito. 
+			L'asse \textit{when} indica le novità temporali relative al sito. Questo è l'asse sicuramente più evidente dato che è un sito che propone notizie e recensioni. È possibile notare, inoltre, come queste siano ordinate cronologicamente dall'alto al basso nella pagina.
 		\subsubsection{How}
+			L'asse \textit{how} ha il compito di indicare come arrivare alle sezioni principali del sito. Questo asse è risolto dal menù, che segue l'utente anche durante lo scroll nella prima pagina. Al di sotto del menù è presente la barra di ricerca, utile in un sito che comunque presenta molti contenuti. Tale barra, però, è visibile solamente dopo un click sull'icona rappresentante la lente di ingrandimento. Tale scelta, sempre più utilizzata e proveniente dal mondo del mobile, non è la migliore: gli utenti infatti preferiscono ancora vedere del testo scritto che accompagna le icone, quindi sarebbe preferibile lasciare visibile la barra di ricerca, in quanto, inoltre, c'è spazio sufficiente poichè possa essere comunque visibile senza rovinare il layout.
+			\begin{figure} [h]
+				\centering
+				\includegraphics[scale=0.3]{img/BarraMenuILoveVg}
+				\caption{Barra del menù prima del click sull'icona della ricerca}
+				\label{fig:AprireProgetto}
+			\end{figure}
+			\begin{figure} [h]
+				\centering
+				\includegraphics[scale=0.3]{img/BarraMenuILoveVgDopoClick}
+				\caption{Barra del menù dopo il click sull'icona della ricerca}
+				\label{fig:AprireProgetto}
+			\end{figure}
+
+	\subsection{Considerazioni generali}
+		Nella parte alta della pagina è presente uno ``slideshow'' che presenta le immagini relative alle notizie più rilevanti con poco testo associato. Tali immagini andrebbero forse ridotte e dare più risalto a titoli e testo a loro associato.
+		L'homepage del sito web è organizzata con una visualizzazione a griglia delle notizie in ordine cronologico. Tale orginizzazione, anche se più compatta, è svantaggiosa per l'utente e comporta una maggiore fatica nella ricerca di una particolare notizia e quindi fa perdere più tempo.
+		Inoltre tali notizie sono presentate con uno scroll infinito. Tale scelta è negativa poichè:
+		\begin{itemize}
+			\item un utente medio è disposto a scrollare per 1,3 schermi, per un totale quindi di 2,3 scermi: in questo modo vengono perse molte delle notizie anche recenti;
+			\item non rispetta i timer degli utenti: gli utenti in media passano 31 secondi nella prima pagina la prima volta che visitano il sito, che diminuisce nelle visite successive stabilizzandosi intorno ai 19 secondi. Ciò fa si che l'asse ``when'' non possa essere soddisfatto a pieno visto che un utente difficilmente accedere a tutte le ultime notizie;
+			\item lo scroll infinito nasconde il piè di pagina dove sono presenti il riferimento alla licenza per i contenuti presenti nel sito e i link con i quali è possibile accedere alle pagine collegate al sito dei maggiori social. 
+		\end{itemize}
+		In generale potrebbe essere preferibile spezzare tale scroll in più pagine. \\
+		Un problema minore legato allo scroll infinito nella prima pagina è che viene visualizzato il simbolo del caricamento nell'attesa che vengano recuperati i contenuti successivi. Questa icona, sebbene possa ben addattarsi in un sito di videogiochi, nel caso di una connessione non perfetta, fa si che venga ricordato continuamente all'utente che è in attesa.
+		\begin{figure} [h]
+			\centering
+			\includegraphics[scale=0.3]{img/PieDiPaginaHomepage}
+			\caption{Piè di pagina dell'homepage}
+			\label{fig:AprireProgetto}
+		\end{figure}
+
+		Il layout della prima pagina viene spezzato al di sotto della barra a destra che presenta della pubblicità e la classifica con i giochi del momento. Tale rottura fa si che, quando la barra non è più visibile, il contenuto venga ridimensionato e spostato al centro. Ciò può non essere gradevole per un utente che potrebbe non capire cosa è successo soprattutto nel caso in cui scrolli rapidamente. \\
+
+		In conclusione sarebbe inoltre necessario dare maggior risalto al testo riportato: infatti nella prima pagina è dato molto risalto alle immagini relative alle notizie ma non uno spazio sufficiente, a mio parere, ai titoli e alle didascalie associate.
 \end{document}
