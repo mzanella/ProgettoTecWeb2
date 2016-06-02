@@ -1,0 +1,58 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{tecweb2}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{sidecap}
+\usepackage{wrapfig}
+\usepackage{subfig}
+\usepackage[toc]{glossaries}
+
+\titlepage{}
+
+\author{Marco Zanella}
+\date{17/05/2016}
+\intestazioni{Manuale Sviluppatore}
+\pagenumbering{gobble}
+
+\begin{document}
+\begin{titlepage}
+	\centering
+	{\huge\bfseries Analisi di usabilità \par}
+	Progetto di tecnologie web 2 - Marco Zanella \\
+	\line(1,0){350} \\
+	{\scshape\LARGE Università di Padova \par}
+	\vspace{1cm}
+	%devono essere cambiato il titolo ogni volta
+	{\scshape\Large sito : I Love Videogames \par}
+	\logo
+\end{titlepage}
+	
+	\newpage
+	\pagestyle{myfront}
+		\newpage
+			\tableofcontents
+		\newpage
+			\listoffigures
+	\label{LastFrontPage}
+
+	\newpage
+		\pagestyle{mymain}
+	\newpage
+		\subfile{sections/Introduzione}
+	\newpage
+		\subfile{sections/HomePage}
+	\newpage
+	%	\subfile{sections/PagineInterne}
+	\newpage
+	%	\subfile{sections/MappaturaEdificio}
+	\newpage
+	%	\subfile{sections/ArchitetturaApplicazione}
+	\newpage
+	%	\subfile{sections/Funzionalita}
+	\newpage
+	%	\subfile{sections/PersistenzaDeiDati}
+				
+	\label{LastPage}
+
+\end{document}
