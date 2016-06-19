@@ -3,3 +3,4 @@ esempio news : http://ilovevg.it/2016/06/resident-evil-7-sara-persona-senza-quic
 esempio recensione : http://ilovevg.it/recensioni/one-piece-burning-blood/
 esempio ricerca con risultati : http://ilovevg.it/?s=dragonball
 esempio ricerca senza risultati : http://ilovevg.it/?s=sadfghjklknbghyu
+esempio 404 : http://ilovevg.it/dfghj
